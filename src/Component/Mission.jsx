@@ -8,7 +8,7 @@ function Mission() {
       <p className="para">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.</p>
       <div className="mbox">
         {MissionData.map((a)=>(
-          <div key={a}>
+          <div key={a.img}>
             <img src={a.img} alt="" />
             <h3>{a.title}</h3>
       </div>

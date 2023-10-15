@@ -213,6 +213,9 @@ ul.show{
         }
         h1{
             font-size:50px;
+            @include res1{
+                font-size: 40px;
+            }
 
         }
         h3{
@@ -239,6 +242,9 @@ ul.show{
     h1{
         color: #292d3d;
         font-size: 50px;
+        @include res1{
+            font-size: 40px;
+        }
         padding: 20px 0;
     }
     .para{
@@ -300,6 +306,9 @@ ul.show{
     background:#ffffff;
     text-align: center;
     padding:100px 0 ;
+    @include res1{
+        padding: 100px 10px;
+    }
     p{
         color: #e25001;
     }
@@ -308,6 +317,9 @@ ul.show{
         font-weight: 700;
         padding: 30px;
         color: #292d3d;
+        @include res1{
+            font-size: 40px;
+        }
     }
     .para{
         width: 43%;
@@ -399,6 +411,9 @@ ul.show{
             }
             h6{
                 font-size: 20px;
+                @include res1{
+                    font-size:18px;
+                }
             }
         }
     }
@@ -413,6 +428,9 @@ ul.show{
         h1{
             font-size: 50px;
             color: #292d3d;
+            @include res1{
+                font-size: 40px;
+            }
         }
         p{
             color: #292d3d;
@@ -528,10 +546,13 @@ ul.show{
     .rang{
         background: #292d3d;
         opacity: 0.8;
-        padding: 60px;
+        padding: 60px 10px;
         color: white;
         h1{
             font-size:50px;
+            @include res1{
+                font-size:40px;
+            }
             padding: 40px;
         }
         p{
@@ -566,7 +587,7 @@ footer{
     @include res1{
         display:grid;
         grid-template-columns: auto;
-        padding: 40px 10px;
+        padding: 40px 20px;
     }
     form{
         display:flex;
@@ -645,7 +666,7 @@ footer{
         }
         padding:90px 0;
         h1{
-            font-size:60px;
+            font-size:40px;
             line-height:126px;
             color:#292d3d;
             @include res{

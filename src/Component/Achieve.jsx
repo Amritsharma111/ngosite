@@ -11,7 +11,7 @@ function Achieve() {
         <div className="con">
             <div className="count">
                 {aData.map(b =>(
-                    <div key={b} className="data">
+                    <div key={b.heading} className="data">
                         <span>{b.icon}</span>
                         <h1>{b.number}</h1>
                         <h6>{b.heading}</h6>  

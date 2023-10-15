@@ -60,7 +60,7 @@ function About() {
         <h1>Other Locations</h1>
           <div className="location">
             {LocationData.map(a=>(
-              <div key={a} className="lbox">
+              <div key={a.img} className="lbox">
                 <img src={a.img} alt="" />
                 <h4>{a.name}</h4>
                 <p>{a.location}</p>
